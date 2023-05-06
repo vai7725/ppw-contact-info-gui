@@ -5,7 +5,7 @@ import axios from 'axios';
 import LoadingBar from 'react-top-loading-bar';
 
 const CardContainer = () => {
-  const backendURI = 'http://localhost:5000';
+  const backendURI = 'https://ppw-backend.cyclic.app';
 
   const [info, setInfo] = useState({ contactInfo: [] });
   const [progress, setProgress] = useState(0);
