@@ -51,7 +51,11 @@ const CardContainer = () => {
         onLoaderFinished={() => setProgress(0)}
       />
       <Container className="card-container d-flex flex-wrap justify-content-center">
-        {contactCardData}
+        {info.contactInfo.length > 0 ? (
+          contactCardData
+        ) : (
+          <h2>Contact request area is empty!</h2>
+        )}
       </Container>
       ;
     </>
