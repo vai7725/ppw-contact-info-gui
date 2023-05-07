@@ -1,6 +1,7 @@
 .card {
   /* width: 30%; */
   margin: 20px;
+  max-width: 30%;
 }
 
 .cardImg {
